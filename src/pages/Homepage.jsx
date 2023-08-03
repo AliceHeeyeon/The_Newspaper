@@ -99,15 +99,6 @@ const Homepage = () => {
     //useEffect fetch data based on the default location
     useEffect(() => { fetchWeather() },[]) 
 
-    //Fuction to handle location on user input
-    const handleLocationChange = (event) => {
-        setLocation(event.target.value)
-    }
-
-    //Function to handle fetch data 
-    const handleWeatherUpdate = () => {
-        fetchWeather()
-    }
 
     //Get day of week which can take datestring from json data
     const getDayOfWeek = (dateString) => {
@@ -232,10 +223,15 @@ const Homepage = () => {
                         <input 
                             type='text'
                             value={location}
-                            onChange={handleLocationChange}
+                            onChange={(e) => {
+                                setLocation(e.target.value)
+                            }}
                         />
                     </div>
-                <TbMapPinSearch className='find-icon' onClick={handleWeatherUpdate} />
+                <TbMapPinSearch 
+                    className='find-icon' 
+                    onClick={() => fetchWeather()}
+                />
             </div>
             {weatherLoading ? (    
                 <Bars color='#954849' height={100} width={100} />

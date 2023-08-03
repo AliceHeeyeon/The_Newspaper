@@ -350,14 +350,14 @@ body {
 .day-container span {
   display: block;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .day-contents {
   font-size: 17px;
   font-weight: 300;
   text-align: center;
-  width: 85px;
+  width: 100px;
 }
 
 .day-contents p{
