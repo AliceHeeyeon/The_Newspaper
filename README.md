@@ -26,20 +26,6 @@
 - **Swiper** `import { Swiper, SwiperSlide } from 'swiper/react'`
   - Touch-enabled slider
 
-> ### :hammer_and_wrench: Project Tools Used
-
-1. VS Code
-   - Writing and managing code.
-2. Terminal
-   - installing dependencies, starting the development server, running test
-3. Node.js and npm
-   - Node.js is a runtime environment that allows JavaScript code to run outside the browser
-   - npm is used to manage project dependencies and packages.
-4. Git
-   - remote repository hosting
-   - .gitignore file allows Git should ignore when I commit changes
-5. Chrome dev tools
-   - inspect and modify the DOM, debug JavaScript code
   
 >### :keyboard: Code snippets
 1. useEffect will render initially based on the default location
@@ -134,6 +120,21 @@ import { Pagination } from 'swiper/modules'
     }
 </Swiper>
 ```
+
+> ### :hammer_and_wrench: Project Tools Used
+
+1. VS Code
+   - Writing and managing code.
+2. Terminal
+   - installing dependencies, starting the development server, running test
+3. Node.js and npm
+   - Node.js is a runtime environment that allows JavaScript code to run outside the browser
+   - npm is used to manage project dependencies and packages.
+4. Git
+   - remote repository hosting
+   - .gitignore file allows Git should ignore when I commit changes
+5. Chrome dev tools
+   - inspect and modify the DOM, debug JavaScript code
 
 > ### :weight_lifting_woman: Who developed?
 >
