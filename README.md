@@ -10,7 +10,7 @@
 - When you select each section, the category changes, and the selected category is displayed with a different label color depending on the category
 - Like other news apps, weather information is also displayed. To ensure better readability, only limited information for the 3-day forecast is shown.
   ![hifi-wireframe](/../main/src/img/mockup-image.png)
-
+  ![mockup-image](../main/src/img/mockup.jpg)
 > ### :dancers: Dependencies
 
 - **React** `import React from 'react'`
